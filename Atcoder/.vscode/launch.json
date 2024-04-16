@@ -9,12 +9,13 @@
       "type": "cppdbg",
       "request": "launch",
       //
-      //      "program": "${workspaceFolder}/problem",
-      "program": "/root/problem",
+      // "program": "${workspaceFolder}/problem",
+      "program": "${fileDirname}/problem_${fileBasenameNoExtension}",
       "args": [],
       "stopAtEntry": false,
       //
-      "cwd": "${workspaceFolder}",
+      // "cwd": "${workspaceFolder}",
+      "cwd": "${fileDirname}",
       "environment": [],
       //
       "externalConsole": false,
@@ -28,7 +29,8 @@
         }
       ],
       //"preLaunchTask": "g++-9 build active file"
-      "preLaunchTask": "g++ build active file"
+      "preLaunchTask": "g++ build active file",
+      "showDisplayString": true
     }
   ]
 }

@@ -609,6 +609,7 @@ class Main {
   private:
   public:
     void solve() {
+        cout << "test" << endl;
         ll N;
         cin >> N;
         vector<ll> a(N);
